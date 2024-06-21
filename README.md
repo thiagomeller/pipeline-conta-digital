@@ -10,7 +10,8 @@ Consulte `BOTAR O LINK DA IMPLANTAÇÃO AQUI` para saber como implantar o projet
 
 ## Desenho de Arquitetura
 
-IMAGEM DO DESENHO
+![Ingest](https://github.com/thiagomeller/pipeline-conta-digital/assets/100603408/905d7a53-3df5-4606-9215-3623c2062106)
+
 
 ## Pré-requisitos
 
@@ -71,7 +72,7 @@ Falar sobre a versão e o controle de versões para o projeto. Para as versões 
 * Arthur - Oq fez - link do git
 * Guilherme - Oq fez - link do git
 * Jorge Antônio - Documentação e apresentação - [JorgeAntonioJr](https://github.com/JorgeAntonioJr)
-* Miguel - Oq fez - link do git
+* Luiz Miguel - Criação e administração do Banco de Dados - [Miguelito001](https://github.com/Miguelito001)
 * Thiago - Oq fez - link do git
 * yuri - Oq fez - link do git
 
