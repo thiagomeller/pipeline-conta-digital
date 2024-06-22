@@ -85,9 +85,11 @@ def generate_loans(n, user_ids):
             "interest_rate": round(random.uniform(0.01, 20.00), 2),
             "installments": random.randint(12, 60),
             "initial_date": initial_date.isoformat(),
-            "final_date": final_date.isoformat()
+            "final_date": final_date.isoformat(),
+            "paid": random.choice([True, False])  # Random boolean indicating if loan is paid
         })
     return loans
+
 
 def save_to_json(filename, data):
     with open(filename, 'w') as f:
