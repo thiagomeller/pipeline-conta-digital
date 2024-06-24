@@ -2,23 +2,21 @@
 
 Descrição....
 
-## Começando
+## Começando ok
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Consulte `BOTAR O LINK DA IMPLANTAÇÃO AQUI` para saber como implantar o projeto.
+Consulte [Implantação](#implantação) para saber como implantar o projeto.
 
-## Desenho de Arquitetura
+## Desenho de Arquitetura ok
 
 ![Ingest](https://github.com/thiagomeller/pipeline-conta-digital/assets/100603408/905d7a53-3df5-4606-9215-3623c2062106)
 
 
-## Pré-requisitos
+## Pré-requisitos ok
 
-De que coisas você precisa para instalar o software e como instalá-lo...
-```
-exemplo
-```
+Caso for rodar em uma maquina local é necessário baixar e instalar o Phyton e Pymongo como ferramenta.
+
 ## Instalação
 
 Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
@@ -39,15 +37,17 @@ Escrever notas extras de como implantar...
 
 ## Ferramentas utilizadas
 
-Ferramentas ultilizadas para a criação do projeto:
+Ferramentas ultilizadas para a criação do projeto: 
 
-* Ferramenta 1 + link - Breve descrição
-* Ferramenta 2 + link - Breve descrição
-* Ferramenta 3 + link - Breve descrição
+* Python + link - Usado para criar o script para as informações do banco.
+* VScode + link - IDE ultilizada para o desenvolvimento em python.
+* Databricks + link - Ambiente de automação, processamento e geração de dashboard.
+* MKdocs + link - Programa ultilzado para documentação do projeto.
+* MongoDB + link - Usado para a inserção de dados.
+  
+## Colaboração ok
 
-## Colaboração
-
-Por favor, leia o COLABORACAO para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+Por favor, leia o [Colaboração](#colaboração) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
 
 Se desejar publicar suas modificações em um repositório remoto no GitHub, siga estes passos:
 
@@ -62,23 +62,23 @@ git push -u origin master
 ```
 Isso configurará o repositório remoto e enviará suas modificações para lá.
 
-## Versão
+## Versão ok
 
-Falar sobre a versão e o controle de versões para o projeto. Para as versões disponíveis, observe as `tags neste repositório`.
+Primeira versão do projeto sobre pipeline em esquema de banco digital.
 
-## Autores
+## Autores ok
 
-* Adriano - Oq fez - link do git
-* Arthur - Oq fez - link do git
-* Guilherme - Oq fez - link do git
-* Jorge Antônio - Documentação e apresentação - [JorgeAntonioJr](https://github.com/JorgeAntonioJr)
+* Adriano - Documentação e Apresentação - [AdrianoReusSavi](https://github.com/AdrianoReusSavi)
+* Arthur - População do Banco de Dados - [ArthurDMelo](https://github.com/ArthurDMello)
+* Guilherme - Dashboard - [guiDalmolin](https://github.com/GuiDalmolin)
+* Jorge Antônio - Documentação e Apresentação - [JorgeAntonioJr](https://github.com/JorgeAntonioJr)
 * Luiz Miguel - Criação e administração do Banco de Dados - [Miguelito001](https://github.com/Miguelito001)
-* Thiago - Oq fez - link do git
-* yuri - Oq fez - link do git
+* Thiago - Processamento de dados e Automação - [Thiagomeller](https://github.com/thiagomeller)
+* yuri - Processamento de dados e Automação - link do git
 
-## Licença
+## Licença ok
 
-Este projeto está sob a licença (sua licença) - veja o arquivo LICENSE para detalhes.
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ## Referências
 

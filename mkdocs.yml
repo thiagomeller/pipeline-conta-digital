@@ -1,0 +1,81 @@
+﻿site_name: Conta Digital
+site_description: Documentacao do projeto Pipeline Conta Digital
+site_author: Adriano Reus Savi, Arthur de Mello Vieira, Guilherme da Silva Dalmolin, Jorge Antonio Teixeira Junior, Luiz Miguel Rosso Formigoni, Thiago Meller Casagrande, Yuri Bonfante de Souza Damin
+site_url: https://thiagomeller.github.io/pipeline-conta-digital
+site_favicon: images/favicon.png
+site_logo: images/logo.png
+
+repo_name: pipeline-conta-digital
+repo_url: https://github.com/thiagomeller/pipeline-conta-digital
+edit_uri: edit/master/docs/
+
+docs_dir: docs
+
+nav:
+  - Introdução: index.md
+  - Transformações: transformacoes.md
+  - Apresentação: apresentacao.md
+  - Sobre: sobre.md
+
+theme:
+  name: material
+  palette:
+    primary: light-green
+    accent: green
+  language: pt
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.paging
+    - navigation.expand
+    - navigation.top
+    - navigation.sidebar
+    - navigation.next-prev
+    - navigation.toc
+    - navigation.scrollspy
+    - search
+    - content.code.copy
+    - content.code.select
+  icon:
+    repo: fontawesome/brands/github
+
+hide:
+  - search
+  - navigation
+  - toc
+
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon 
+      link: https://jl2tech.com
+  generator: false
+
+copyright: Copyright &copy; 2024 - <a href="#" target="_blank"><b>Thiago Meller Casagrande</b></a> - Todos os direitos reservados.
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+markdown_extensions: 
+    - admonition
+    - codehilite
+    - footnotes
+    - meta
+    - toc
+    - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - pymdownx.details
+    - md_in_html
+    - pymdownx.snippets
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
