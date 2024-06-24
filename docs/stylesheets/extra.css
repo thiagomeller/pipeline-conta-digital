@@ -1,0 +1,30 @@
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.member-card {
+  text-align: center;
+}
+
+.member-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.member-card img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 3px;
+}
+
+.member-card p {
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0;
+}
