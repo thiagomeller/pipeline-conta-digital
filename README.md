@@ -1,51 +1,41 @@
 # pipeline-conta-digital
 
-Descrição....
+Um projeto de criação de uma pipeline de dados para um sistema de banco digital, o qual permitiria que os usuários gerenciassem suas finanças de forma prática e segura. O app ofereceria funcionalidades para movimentação de contas, solicitação de empréstimos, investimento em aplicações financeiras, e cadastro de cartões de crédito e débito.
 
-## Começando ok
+## Começando 
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
 Consulte [Implantação](#implantação) para saber como implantar o projeto.
 
-## Desenho de Arquitetura ok
+## Desenho de Arquitetura 
 
 ![Ingest](https://github.com/thiagomeller/pipeline-conta-digital/assets/100603408/905d7a53-3df5-4606-9215-3623c2062106)
 
 
-## Pré-requisitos ok
+## Pré-requisitos 
 
 Caso for rodar em uma maquina local é necessário baixar e instalar o Phyton e Pymongo como ferramenta.
 
-## Instalação
+## Documentação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
-
-Diga como essa etapa será:
-```
-Dar exemplos
-```
-E repita:
-```
-Até finalizar
-```
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+Atavés desse link você poderá acessar a documentação desse projeto: [Documentação  ](http://thiagomeller.github.io/pipeline-conta-digital/).
 
 ## Implantação
 
-Escrever notas extras de como implantar...
+Utilizamos o ambiente da Azure + Databricks para fazer toda a implantação
 
 ## Ferramentas utilizadas
 
 Ferramentas ultilizadas para a criação do projeto: 
 
-* Python + link - Usado para criar o script para as informações do banco.
-* VScode + link - IDE ultilizada para o desenvolvimento em python.
-* Databricks + link - Ambiente de automação, processamento e geração de dashboard.
-* MKdocs + link - Programa ultilzado para documentação do projeto.
-* MongoDB + link - Usado para a inserção de dados.
+* [Python](https://www.python.org/) - Usado para criar o script para as informações do banco.
+* [VScode](https://code.visualstudio.com/) - IDE ultilizada para o desenvolvimento em python.
+* [Databricks](https://www.databricks.com/) - Ambiente de automação, processamento e geração de dashboard.
+* [MKdocs](https://www.mkdocs.org/) - Programa ultilzado para documentação do projeto.
+* [MongoDB](https://www.mongodb.com/) - Usado para a inserção de dados.
   
-## Colaboração ok
+## Colaboração 
 
 Por favor, leia o [Colaboração](#colaboração) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
 
@@ -62,11 +52,11 @@ git push -u origin master
 ```
 Isso configurará o repositório remoto e enviará suas modificações para lá.
 
-## Versão ok
+## Versão 
 
 Primeira versão do projeto sobre pipeline em esquema de banco digital.
 
-## Autores ok
+## Autores 
 
 * Adriano - Documentação e Apresentação - [AdrianoReusSavi](https://github.com/AdrianoReusSavi)
 * Arthur - População do Banco de Dados - [ArthurDMelo](https://github.com/ArthurDMello)
@@ -76,11 +66,12 @@ Primeira versão do projeto sobre pipeline em esquema de banco digital.
 * Thiago - Processamento de dados e Automação - [Thiagomeller](https://github.com/thiagomeller)
 * yuri - Processamento de dados e Automação - link do git
 
-## Licença ok
+## Licença 
 
 Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ## Referências
 
-f]referencias
-
+[Databricks](https://www.databricks.com/blog)
+[Apache Spark](https://spark.apache.org/docs/latest/)
+[Mkdocs](https://www.mkdocs.org/)
