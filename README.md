@@ -19,7 +19,8 @@ Caso for rodar em uma maquina local é necessário baixar e instalar o Phyton e 
 
 ## Documentação
 
-Atavés desse link você poderá acessar a documentação desse projeto: [Documentação  ](http://thiagomeller.github.io/pipeline-conta-digital/).
+Atavés desse link você poderá acessar a documentação desse projeto: [Documentação  ](https://adrianoreussavi.github.io/pipeline-conta-digital/).
+Atavés desse link você poderá acessar a apresentação desse projeto: [Apresentação  ](https://docs.google.com/presentation/d/1prmQ9EoposQ94oTAv2_dESDFYfj9X1F8SkpIWO10Wkg/edit#slide=id.g4dfce81f19_0_45).
 
 ## Implantação
 
