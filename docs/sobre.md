@@ -1,9 +1,4 @@
-﻿---
-hide:
-  - navigation
----
-
-# Sobre
+﻿# Sobre
 
 ## Projeto
 
